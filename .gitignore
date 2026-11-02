@@ -1,0 +1,70 @@
+# ==============================================================================
+# Android & Kotlin Ignore Rules
+# ==============================================================================
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Compiled class files
+*.class
+*.dex
+
+# Generated build directories
+build/
+app/build/
+bin/
+gen/
+out/
+captures/
+.gradle/
+
+# Local SDK and environment properties (NEVER commit local machine paths)
+local.properties
+
+# ==============================================================================
+# Android Studio / IntelliJ IDEA
+# ==============================================================================
+.idea/
+*.iml
+*.ipr
+*.iws
+.externalNativeBuild/
+.cxx/
+
+# ==============================================================================
+# Signing & Keystore Credentials
+# ==============================================================================
+*.jks
+*.keystore
+
+# ==============================================================================
+# Operating System Files
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ==============================================================================
+# Python Tools & Virtual Environments
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+venv/
+
+# ==============================================================================
+# Temporary Test Runtime Artifacts (Keeps directories via .gitkeep)
+# ==============================================================================
+tools/received_prints/*
+!tools/received_prints/.gitkeep
+tools/test_reports/*
+!tools/test_reports/.gitkeep
